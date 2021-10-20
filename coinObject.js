@@ -1,5 +1,6 @@
 const container1 = document.createElement('div');
 const container2 = document.createElement('div');
+container2.className = 'text'
 document.body.append(container1,container2);
 console.log(document.body);
 const coin = {

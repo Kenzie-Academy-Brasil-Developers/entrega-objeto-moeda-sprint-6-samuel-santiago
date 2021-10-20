@@ -14,3 +14,10 @@ body div{
 img{
     padding: 5px
 }
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
