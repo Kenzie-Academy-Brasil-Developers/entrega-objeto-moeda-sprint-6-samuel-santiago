@@ -48,7 +48,7 @@ const coin = {
   function display20Flips() {
     const results = [];
 
-    for(let i = 1; i<20; i++){
+    for(let i = 0; i<20; i++){
         results.push(coin.flip())
 
         let texto = document.createElement('p');
@@ -80,10 +80,11 @@ const coin = {
     const results = [];
 
 
-    for(let i=0; i<=20; i++){
+    for(let i=0; i<20; i++){
       results.push(coin.flip())
       coin.toHTML()
     }
+
     return results;
     
   }
